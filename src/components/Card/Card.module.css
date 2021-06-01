@@ -1,0 +1,39 @@
+.contents {
+  width: 100%;
+  height: 450px;
+}
+
+.contents:nth-child(even) {
+  width: 100%;
+  height: 450px;
+  background-color: #5bbee5;
+}
+
+.inner {
+  width: 80%;
+  height: 430px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  width: 400px;
+  height: 250px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  width: 30%;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.text {
+  font-size: 1.2em;
+  text-align: left;
+}
