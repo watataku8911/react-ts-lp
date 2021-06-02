@@ -1,13 +1,47 @@
-.form {
-  margin: 0 auto;
-  width: 80%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-}
+@media screen and (min-width: 1026px) {
+  .form {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.name {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/*タブレット*/
+@media screen and (min-width: 482px) and (max-width: 1025px) {
+  .form {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/*スマホ*/
+@media screen and (max-width: 481px) {
+  .form {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

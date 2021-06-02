@@ -67,7 +67,6 @@ const Form = () => {
             </div>
             <div className="module--spacing--large"></div>
             <div className="module--spacing--large"></div>
-            <div className="module--spacing--large"></div>
             <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInUp slower'>
                 <TextInput type={"email"} name={"email"} placeholder={"hogehoge@example.com"} value={email} onChange={inputEmail} />
             </InViewMonitor>
@@ -75,7 +74,7 @@ const Form = () => {
                 <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInUp slower'>
                     <CheckBox label={"I checked all input information."} name={"agree"} checked={checked} onChange={changeDisabled} />
                 </InViewMonitor>
-            <div className="module--spacing--large"></div>
+            <div className="module--spacing--small"></div>
             <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInUp slower'>
                 <Button label={"送信"} disabled={!checked} onClick={send}/>
             </InViewMonitor>
