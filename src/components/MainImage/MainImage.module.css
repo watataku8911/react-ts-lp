@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   background-image: url("../../img/main-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
