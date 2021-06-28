@@ -1,17 +1,17 @@
 [
     {
-      "title": "コンテンツ１",
-      "description": "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト",
+      "title": "Reactとは？",
+      "description": "React は、Facebookとコミュニティによって開発されているユーザインタフェース構築のためのJavaScriptライブラリである。React.jsまたはReactJSの名称でも知られている。 Reactはシングルページアプリケーションやモバイルアプリケーションの開発におけるベースとして使用することができる。",
       "imagePath": "./images/image01.jpeg"
     },
     {
-      "title": "コンテンツ２",
-      "description": "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト",
+      "title": "TypeScriptとは？",
+      "description": "TypeScript はマイクロソフトによって開発され、メンテナンスされているフリーでオープンソースのプログラミング言語である。TypeScriptはJavaScriptに対して、省略も可能な静的型付けとクラスベースオブジェクト指向を加えた厳密なスーパーセットとなっている。",
       "imagePath": "./images/image02.jpeg"
     },
     {
-      "title": "コンテンツ３",
-      "description": "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト ",
+      "title": "LPを作りました",
+      "description": "ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。",
       "imagePath": "./images/image03.jpeg"
     }
   ]

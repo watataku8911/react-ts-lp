@@ -5,7 +5,7 @@ const MainImage = () => {
     return(
         <section>
             <div className={styles.main_image}>
-                <h1 className={styles.title}>React + TypeScriptの練習(LP制作)</h1>
+                <h1 className={styles.title}>React + TypeScriptの練習</h1>
             </div>
         </section>
     )
