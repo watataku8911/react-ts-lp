@@ -1,3 +1,14 @@
+# react-ts-lp
+> LPをReact+Typescriptのモダン開発で作って見た。
+
+- [Qiita 解説記事](https://qiita.com/watataku8911/items/24a6630b85ef07b8a083)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
