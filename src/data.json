@@ -2,16 +2,16 @@
     {
       "title": "Reactとは？",
       "description": "React は、Facebookとコミュニティによって開発されているユーザインタフェース構築のためのJavaScriptライブラリである。React.jsまたはReactJSの名称でも知られている。 Reactはシングルページアプリケーションやモバイルアプリケーションの開発におけるベースとして使用することができる。",
-      "imagePath": "./images/image01.jpeg"
+      "imagePath": "./images/image01.png"
     },
     {
       "title": "TypeScriptとは？",
       "description": "TypeScript はマイクロソフトによって開発され、メンテナンスされているフリーでオープンソースのプログラミング言語である。TypeScriptはJavaScriptに対して、省略も可能な静的型付けとクラスベースオブジェクト指向を加えた厳密なスーパーセットとなっている。",
-      "imagePath": "./images/image02.jpeg"
+      "imagePath": "./images/image02.png"
     },
     {
-      "title": "LPを作りました",
-      "description": "ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。ReactとTypeScriptでよく目にするLPを作りました。",
-      "imagePath": "./images/image03.jpeg"
+      "title": "Vercelとは？",
+      "description": "Next.jsで作成したプロジェクトを簡単にデプロイできるサービスを指しています。 サーバー側の設定をほぼ自動的に行ってくれるので、サーバーの知識がない方でも簡単にデプロイすることができます！ SSL暗号化、キャッシュの無効化、圧縮による軽量化などを自動で行ってくれます！",
+      "imagePath": "./images/image03.png"
     }
   ]
