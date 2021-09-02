@@ -12,18 +12,20 @@ const App = () => {
 
   return (
     <div className="App">
-      <MainImage />
-      <div className="card">
-        {data.map((item: ComponentProps<typeof Card>, index: number) => {
-          return(
-            <Card title={item.title} description={item.description} imagePath={item.imagePath} key={index} />
-          )
-        })}
+      <div>
+        <MainImage />
+        <div className="card">
+          {data.map((item: ComponentProps<typeof Card>, index: number) => {
+            return(
+              <Card title={item.title} description={item.description} imagePath={item.imagePath} key={index} />
+            )
+          })}
+        </div>
+        <h2 className="form_h2">Form</h2>
+        <Form />
+        <div className="module--spacing--small"></div>
+        <Footer />
       </div>
-      <h2 className="form_h2">Form</h2>
-      <Form />
-      <div className="module--spacing--small"></div>
-      <Footer />
     </div>
   );
 }

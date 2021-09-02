@@ -6,6 +6,7 @@ const MainImage = () => {
         <section>
             <div className={styles.main_image}>
                 <h1 className={styles.title}>React + TypeScriptの練習</h1>
+                <div className={styles.pic_down}></div>
             </div>
         </section>
     )
