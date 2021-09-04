@@ -12,13 +12,22 @@
 }
 
 .opning {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
 }
 
-.opning {
+.bar {
+  animation: typewriter 1s ease-in 0s 1 normal;
+  height: 5px;
+  background: linear-gradient(to right, #5bbee4 0%, #52eac1 100%);
+  position: absolute;
+  top: 0;
+}
+
+.opning p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 2em;
   letter-spacing: 3px;
 }
@@ -46,5 +55,14 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
   }
 }
