@@ -10,19 +10,26 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState<Boolean>(false);
+  const [bar, setBar] = useState<Boolean>(false);
 
   useEffect(() => {
     window.addEventListener("load", () => {
-      setTimeout(() => {
-        setIsLoading(true);
-      }, 1000);
+      loadFinish();
     });
-  }, [setIsLoading]);
+  }, [setIsLoading, setBar]);
+
+  const loadFinish = () => {
+    setBar(true);
+    setTimeout(() => {
+      setIsLoading(true);
+    }, 1600);
+  };
 
   return (
     <div className="App">
       {!isLoading && (
         <div className="opning">
+          {bar && <div className="bar"></div>}
           <p>Now Loading...</p>
         </div>
       )}
