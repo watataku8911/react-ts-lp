@@ -18,7 +18,7 @@
 
 .pic_down {
   position: absolute;
-  bottom: 5vw;
+  bottom: calc(5vw + 5vh);
   animation-name: picdown;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -45,4 +45,3 @@
     transform: translateY(20px);
   }
 }
-
